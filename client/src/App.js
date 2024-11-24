@@ -270,7 +270,7 @@ function App() {
 
         {/* Display success/error message */}
         {successMessage && <div className="success-message">{successMessage}</div>}
-        {errorMessage && <div className="error-message">{errorMessage}</div>}
+        
 
         <div className="hourly-forecast">
           <p className="cast-header">Upcoming forecast</p>
